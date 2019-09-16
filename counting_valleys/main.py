@@ -17,10 +17,9 @@ def countingValleys(n, s):
                 step_val -= 1
             elif letter == 'U':
                 step_val += 1
-            
-            if step_val == 0:
-                num_valleys += 0.5
-    
+                if step_val == 0:
+                    num_valleys += 1
+    # consider that not all the zero moments will be a valley        
     return int(num_valleys)
             
 
