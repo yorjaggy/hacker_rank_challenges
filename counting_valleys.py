@@ -27,8 +27,8 @@ def countingValleys(n, s):
 
 if __name__ == '__main__':
     dirpath = os.getcwd()
-    folder = 'counting_valleys'
-    fptr = open(dirpath+'/'+folder+'/output.txt', 'w')
+    
+    fptr = open(dirpath+'/output.txt', 'w')
 
     n = int(input())
 

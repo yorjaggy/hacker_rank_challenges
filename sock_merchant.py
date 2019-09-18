@@ -29,7 +29,7 @@ def sockMerchant(n, ar):
 
 if __name__ == '__main__':
     dirpath = os.getcwd()
-    fptr = open(dirpath+'/sock_merchant/output.txt', 'w')
+    fptr = open(dirpath+'/output.txt', 'w')
 
     n = int(input())
 
